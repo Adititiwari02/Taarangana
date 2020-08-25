@@ -1,0 +1,47 @@
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+h5{
+    color: #ffffff;
+    text-align: center;
+}
+body{
+    background-image: url("Images/bgImage.png");
+}
+@keyframes zoominout {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.2,1.2);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+
+.d-block {
+    animation: zoominout 5s infinite ;
+}
+#Sponsors{
+    height: auto;
+    margin: 5% 30%;
+    border: 10px;
+
+}
